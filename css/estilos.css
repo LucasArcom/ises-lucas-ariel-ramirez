@@ -295,6 +295,7 @@ footer a:hover {
 
 
 /* MEDIA QUERIES */
+/* Eliminamos la sección de horarios y mostramos el contenido de las demás secciones en columna */
 @media screen and (max-width: 1050px) {
 
     #seccion-horarios {display: none;}
@@ -315,6 +316,7 @@ footer a:hover {
     }
 }
 
+/* mostramos la barra de navegacion  y el footer en columna. Eliminamos las flechas de la seccion de "galería" y ajustamos la imagen */
 @media screen and (max-width: 645px) {
 
     .flechas {display: none;}
@@ -350,6 +352,7 @@ footer a:hover {
     footer a {font-size: 10px;}
 }
 
+/* Ajustamos los margins y paddings del formulario */
 @media screen and (max-width: 930px) {
     .iniciar-sesion-formulario {
         margin: 50px;
