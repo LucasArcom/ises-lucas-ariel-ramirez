@@ -1,0 +1,359 @@
+/* RESETEO DE MARGINS Y PADDINGS */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* PADDINGS Y MARGINS*/
+h1 {padding: 20px;}
+h2 {padding: 20px;}
+h3 {padding: 20px;}
+h4 {padding: 20px;}
+nav ul {padding: 20px;}
+p {padding: 20px;}
+
+
+/* ESTILO DE FUENTE Y COLOR DE FONDO */
+body {
+    font-family: sans-serif;
+    background-color: burlywood;
+}
+
+
+
+/* ESTILOS DEL NAV */
+nav ul div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+nav ul div img {
+    max-width: 50px;
+    padding-right: 10px;
+}
+
+nav ul{
+    background-color: white;
+    align-items: center;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+nav ul li {
+    padding: 5px;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+}
+
+nav ul li a:hover {
+    color: white;
+    background-color: black;
+}
+
+#iniciar-sesion {
+    color: white;
+    background-color: black;
+}
+
+#iniciar-sesion:hover {
+    color: black;
+    background-color: white;
+}
+
+.busqueda img {max-width: 15px;}
+.iniciar-sesion img {max-width: 20px;}
+
+.logo-al-lado {
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 100;
+    color: black;
+}
+
+
+
+/* ESTILOS DEL HEADER */
+.header {
+    text-align: center;
+}
+
+.frase {
+    font-size: 30px;
+}
+
+
+
+/* ESTILOS DE LA PÁGINA DE INICIAR SESIÓN Y REGISTRARSE */
+.iniciar-sesion-formulario {
+    display: flex;
+    flex-direction: column;
+    
+    align-items: left;
+    padding-left: 500px;
+    padding-bottom: 25px;
+    padding-top: 20px;
+    margin-bottom: 50px;
+
+
+    font-size: 20px;
+    color: white;
+    background-color: black;
+}
+.segunda-opcion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.segunda-opcion a {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 5px;
+}
+
+.segunda-opcion a:hover {
+    color: black;
+    background-color: white;
+}
+
+
+
+/* ESTILOS DEL MAIN INDEX */
+/* cuadros iniciales */
+.cuadro-contenedor {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.cuadro-hijo {
+    background-color: white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border-style: solid;
+    border-width: 1px;
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.link-cuadro {
+    text-decoration: none;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: black;
+}
+
+/* secciones */
+.seccion {
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    margin: 50px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+#mostrador-de-imagenes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.seccion-hijo {
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+}
+
+.seccion-hijo img {
+    width: 400px;
+}
+
+.seccion-hijo-contenido {
+    padding: 50px;
+    font-size: 25px;
+}
+
+.flechas {
+    max-width: 50px;
+}
+
+/* tablas */
+.seccion-hijo table {
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    border-collapse: collapse;
+
+    margin-left: 200px;
+}
+
+.seccion-hijo table th, td {
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+
+    padding: 5px;
+}
+
+.seccion-hijo table th {background-color: burlywood;}
+.seccion-hijo table td {background-color: lightskyblue;}
+
+
+
+/* ESTILOS DEL MAIN QUIÉNES SOMOS */
+.titulo {
+    margin: 30px;
+}
+
+.negrita {font-weight: bold;}
+
+.autoridades {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+}
+
+.autoridades img {max-width: 200px;}
+
+/* DESPEDIDAS */
+
+.despedida {
+    text-align: right;
+    font-size: 15px;
+}
+
+
+
+/* GRIDS Y ESTILOS DEL FOOTER*/
+
+footer {
+    background-color: black;
+    text-align: center;
+    align-items: center;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-areas: 
+    "imagen item-1 item-2 item-3"
+    "derechos derechos derechos derechos";
+}
+
+footer img {max-width: 100px;}
+
+footer p {color: white;}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+
+footer a:hover {
+    background-color: white;
+    color: black;
+}
+
+#grid-imagen {grid-area: imagen;}
+#grid-item-1 {grid-area: item-1}
+#grid-item-2 {grid-area: item-2;}
+#grid-item-3 {grid-area: item-3;}
+#grid-derechos {grid-area: derechos;}
+
+
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 1050px) {
+
+    #seccion-horarios {display: none;}
+
+    .seccion-hijo table {display: none;}
+
+    #header-horarios {display: none;}
+
+    .seccion-hijo {
+        display: flex;
+        flex-direction: column;
+        margin: 25px;
+    }
+
+    .seccion-hijo-contenido {
+        text-align: center;
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 645px) {
+
+    .flechas {display: none;}
+
+    .seccion-hijo img {width: 200px;}
+
+    .cuadro-contenedor {flex-direction: column;}
+
+    nav ul div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    nav ul li {margin: 10px;}
+
+    .seccion-footer {
+        flex-direction: column;
+        margin: 50px;
+    }
+
+    .segunda-opcion {
+        margin: 10px;
+    }
+
+    footer a {font-size: 10px;}
+}
+
+@media screen and (max-width: 930px) {
+    .iniciar-sesion-formulario {
+        margin: 50px;
+        padding: 5px;
+        align-items: left;
+    }
+}
