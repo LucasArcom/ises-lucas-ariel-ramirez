@@ -377,3 +377,12 @@ footer a {
 
     transition-duration: 0.3s;
 }
+
+.segunda-opcion a {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 5px;
+
+    transition-duration: 0.3s;
+}
