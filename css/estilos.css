@@ -357,3 +357,14 @@ footer a:hover {
         align-items: left;
     }
 }
+
+
+
+/* ANIMACIONES Y TRANSICIONES */
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+
+    transition-duration: 0.3s;
+}
